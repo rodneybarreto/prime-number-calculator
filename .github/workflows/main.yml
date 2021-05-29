@@ -8,16 +8,12 @@ jobs:
   execute-unit-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
       - uses: actions/checkout@v2
-    steps:
       - name: Setup Node.js environment
-      - uses: actions/setup-node@v2.1.5
+        uses: actions/setup-node@v2.1.5
         with: 
           node-version: 14.16.0
-    steps:
       - name: Install dependencies
         run: npm install
-    steps:
       - name: Running unit tests
         run: npm test PrimeNumberCalculatorMochaTest.js
