@@ -1,0 +1,14 @@
+name: PrimeNumberCalculator-Comments-on-pull-request
+
+on: pull_request
+
+jobs:
+  comments-on-pull-request:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Comments on pull request
+        uses: thollander/actions-comment-pull-request@master
+        with:
+          message: 'Obrigado pela PR. O time vai revisar em breve.'
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
