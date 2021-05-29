@@ -6,3 +6,7 @@ node PrimeNumberCalculatorTest.js
 ```
 npm test PrimeNumberCalculatorMochaTest.js
 ```
+### Executar o programa
+```
+node PrimeNumberCalculator.js
+```
