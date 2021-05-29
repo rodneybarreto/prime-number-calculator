@@ -1,4 +1,4 @@
-name: PrimeNumberCalculator-Unit-Test
+name: Execute units tests
 
 on:
   push:
