@@ -1,4 +1,4 @@
-name: PrimeNumberCalculator-Comments-on-pull-request
+name: Comments on pull request
 
 on: pull_request
 
